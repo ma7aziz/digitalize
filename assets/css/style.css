@@ -2006,7 +2006,7 @@ body.js-nav-active.js-page-in.js-page-out .preloader__logoload-box {
 .preloader__logo {
 	width: auto;
 	height: 100%;
-	max-height: 65px;
+	max-height: 100px;
 	position: absolute;
 	left: 50%;
 	top:  50%;
