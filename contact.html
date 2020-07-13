@@ -440,6 +440,7 @@
 
 			var $form = $(this);
 			$.post($form.attr("action"), $form.serialize()).then(function () {
+				this.reset();
 				alert("Thank you!");
 			});
 		});
